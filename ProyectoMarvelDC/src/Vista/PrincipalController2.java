@@ -79,7 +79,6 @@ public class PrincipalController2 implements Initializable {
             personajes.add(personaje);
 
             personaje = new Personajes();
-<<<<<<< HEAD
             personaje.setNombre("mrmajestic");
             personaje.setImgsrc("/utilidadheroes/mr_majestic.jpg");
             personajes.add(personaje);
@@ -247,7 +246,7 @@ public class PrincipalController2 implements Initializable {
             personaje = new Personajes();
             personaje.setNombre("zatanna");
             personaje.setImgsrc("/utilidadheroes/zatanna.jpg");
-=======
+
             personaje.setNombre("firestorm");
             personaje.setImgsrc("/utilidadheroes/firestorm.jpg");
             personajes.add(personaje);
@@ -544,7 +543,6 @@ public class PrincipalController2 implements Initializable {
             personaje = new Personajes();
             personaje.setNombre("fantomex");
             personaje.setImgsrc("/utilidadheroes/fantomex.png");
->>>>>>> 7e889bc2dd72d08bdb80dc55b8bfad2319e811ca
             personajes.add(personaje);
 
             return personajes;
