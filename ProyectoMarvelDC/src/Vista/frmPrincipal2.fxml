@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.PrincipalController2">
+   <children>
+      <AnchorPane prefHeight="3.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="101.0" layoutY="8.0" prefHeight="18.0" prefWidth="199.0" text="HEROES" textFill="#8a8181">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCerrar" layoutX="560.0" layoutY="1.0" mnemonicParsing="false" onAction="#actCerrar" prefHeight="27.0" prefWidth="17.0" style="-fx-background-color: TRANSAPARENT; -fx-border-radius: 50; -fx-border-width: 2;" text="x" textFill="#ffe1e1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <effect>
+            <BoxBlur height="0.0" iterations="0" width="0.0" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane prefHeight="117.0" prefWidth="600.0" style="-fx-background-color: F3372D;">
+         <children>
+            <Button fx:id="btnBuscar" layoutX="368.0" layoutY="10.0" mnemonicParsing="false" onAction="#actBuscar" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 10;" text="BUSCAR" textFill="#ffb5b5">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button fx:id="btnEditor" layoutX="486.0" layoutY="9.0" mnemonicParsing="false" onAction="#actEditor" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 10;" text="EDITOR" textFill="#ffb6b6">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <TextField fx:id="txtUser" layoutX="100.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="192.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children>
+         <effect>
+            <Reflection fraction="0.37" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="AnchorPane1" prefHeight="146.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="306.0" fitWidth="600.0" layoutY="-8.0" opacity="0.85" pickOnBounds="true">
+               <image>
+                  <Image url="@../Utilidades/29568.jpg" />
+               </image>
+            </ImageView>
+            <HBox layoutY="-8.0" prefHeight="306.0" prefWidth="600.0">
+               <children>
+                  <ScrollPane fx:id="scrollpane" opacity="0.94" prefHeight="308.0" prefWidth="601.0">
+                     <content>
+                        <GridPane fx:id="gridpane" prefHeight="23.0" prefWidth="21.0">
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                           </rowConstraints>
+                        </GridPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
