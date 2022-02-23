@@ -376,7 +376,6 @@ public class PrincipalController2 implements Initializable {
             personaje = new Personajes();
             personaje.setNombre("fantomex");
             personaje.setImgsrc("/utilidadheroes/fantomex.png");
->>>>>>> b09bcc20d2cd17df95591dc66b058c2e1310ecff
             personajes.add(personaje);
 
             return personajes;
