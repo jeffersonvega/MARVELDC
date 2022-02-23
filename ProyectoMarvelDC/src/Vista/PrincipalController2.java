@@ -78,8 +78,156 @@ public class PrincipalController2 implements Initializable {
             personaje.setImgsrc("/utilidadheroes/stargirl.jpg");
             personajes.add(personaje);
 
+            personaje = new Personajes();
+            personaje.setNombre("ala nocturna");
+            personaje.setImgsrc("/utilidadheroes/ala-nocturna.jpg");
+            personajes.add(personaje);
             
+            personaje = new Personajes();
+            personaje.setNombre("apollo");
+            personaje.setImgsrc("/utilidadheroes/apollo.jpg");
+            personajes.add(personaje);
 
+
+            personaje = new Personajes();
+            personaje.setNombre("aquaman");
+            personaje.setImgsrc("/utilidadheroes/aquaman.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("atomo");
+            personaje.setImgsrc("/utilidadheroes/atomo.jpg");
+            personajes.add(personaje);
+            
+            personaje = new Personajes();
+            personaje.setNombre("batman");
+            personaje.setImgsrc("/utilidadheroes/batman.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("batwoman");
+            personaje.setImgsrc("/utilidadheroes/batwoman.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("big barda");
+            personaje.setImgsrc("/utilidadheroes/big_barda.jpg");
+            personajes.add(personaje);
+            
+            personaje = new Personajes();
+            personaje.setNombre("bishop");
+            personaje.setImgsrc("/utilidadheroes/bishop.png");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("black canary");
+            personaje.setImgsrc("/utilidadheroes/black_canary.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("black cat");
+            personaje.setImgsrc("/utilidadheroes/black_cat.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("blue beetle");
+            personaje.setImgsrc("/utilidadheroes/blue_beetle.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("buho nocturno");
+            personaje.setImgsrc("/utilidadheroes/buho_nocturno.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("cable");
+            personaje.setImgsrc("/utilidadheroes/cable.png");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("capitan america");
+            personaje.setImgsrc("/utilidadheroes/capitan_america.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("catwoman");
+            personaje.setImgsrc("/utilidadheroes/catwoman.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("centinela omega");
+            personaje.setImgsrc("/utilidadheroes/centinela_omega.png");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("ciclope");
+            personaje.setImgsrc("/utilidadheroes/ciclope.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("colossus");
+            personaje.setImgsrc("/utilidadheroes/colossus.png");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("cyborg");
+            personaje.setImgsrc("/utilidadheroes/cyborg.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("daredevil");
+            personaje.setImgsrc("/utilidadheroes/daredevil.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("deadpool");
+            personaje.setImgsrc("/utilidadheroes/deadpool.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("dick grayson");
+            personaje.setImgsrc("/utilidadheroes/dick_grayson.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("doctor strange");
+            personaje.setImgsrc("/utilidadheroes/doctor_strange.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("domino");
+            personaje.setImgsrc("/utilidadheroes/domino.png");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("don hall");
+            personaje.setImgsrc("/utilidadheroes/don_hall.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("donna troy");
+            personaje.setImgsrc("/utilidadheroes/donna_troy.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("elektra");
+            personaje.setImgsrc("/utilidadheroes/elektra.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("etrigan");
+            personaje.setImgsrc("/utilidadheroes/etrigan.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("falcon");
+            personaje.setImgsrc("/utilidadheroes/falcon.jpg");
+            personajes.add(personaje);
+
+            personaje = new Personajes();
+            personaje.setNombre("fantomex");
+            personaje.setImgsrc("/utilidadheroes/fantomex.png");
+            personajes.add(personaje);
 
             return personajes;
     }
