@@ -73,7 +73,7 @@ public class PrincipalController2 implements Initializable {
         List<Personajes> personajes = new ArrayList<>();
         Personajes personaje;
      
-            personaje = new Personajes();
+            /*personaje = new Personajes();
             personaje.setNombre("stargirl");
             personaje.setImgsrc("/utilidadheroes/stargirl.jpg");
             personajes.add(personaje);
@@ -260,7 +260,7 @@ public class PrincipalController2 implements Initializable {
             personaje.setNombre("ghost rider");
             personaje.setImgsrc("/utilidadheroes/ghost_rider.png");
             personajes.add(personaje);
-			
+			*/
 	    personaje = new Personajes();
             personaje.setNombre("gladiador");
             personaje.setImgsrc("/utilidadheroes/gladiador.jpg");
@@ -394,6 +394,7 @@ public class PrincipalController2 implements Initializable {
 	    personaje = new Personajes();
             personaje.setNombre("mr fantastic");
             personaje.setImgsrc("/utilidadheroes/mr_fantastic.png");
+            personajes.add(personaje);
 
 	    personaje = new Personajes();
             personaje.setNombre("ala nocturna");
@@ -504,7 +505,7 @@ public class PrincipalController2 implements Initializable {
             personaje.setNombre("dick grayson");
             personaje.setImgsrc("/utilidadheroes/dick_grayson.jpg");
             personajes.add(personaje);
-
+        
             personaje = new Personajes();
             personaje.setNombre("doctor strange");
             personaje.setImgsrc("/utilidadheroes/doctor_strange.jpg");
@@ -539,6 +540,7 @@ public class PrincipalController2 implements Initializable {
             personaje.setNombre("falcon");
             personaje.setImgsrc("/utilidadheroes/falcon.jpg");
             personajes.add(personaje);
+            
 
             personaje = new Personajes();
             personaje.setNombre("fantomex");
