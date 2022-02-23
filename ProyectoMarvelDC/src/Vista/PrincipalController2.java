@@ -79,7 +79,6 @@ public class PrincipalController2 implements Initializable {
             personajes.add(personaje);
 
             personaje = new Personajes();
-<<<<<<< HEAD
             personaje.setNombre("firestorm");
             personaje.setImgsrc("/utilidadheroes/firestorm.jpg");
             personajes.add(personaje);
