@@ -73,7 +73,7 @@ public class PrincipalController2 implements Initializable {
         List<Personajes> personajes = new ArrayList<>();
         Personajes personaje;
      
-            /*personaje = new Personajes();
+            personaje = new Personajes();
             personaje.setNombre("stargirl");
             personaje.setImgsrc("/utilidadheroes/stargirl.jpg");
             personajes.add(personaje);
@@ -144,7 +144,7 @@ public class PrincipalController2 implements Initializable {
             personajes.add(personaje);
 
             personaje = new Personajes();
-            personaje.setNombre("sheHulk");
+            personaje.setNombre("she hulk");
             personaje.setImgsrc("/utilidadheroes/she_Hulk.png");
             personajes.add(personaje);
 
@@ -207,7 +207,7 @@ public class PrincipalController2 implements Initializable {
             personaje.setNombre("theflash");
             personaje.setImgsrc("/utilidadheroes/the_flash.jpg");
             personajes.add(personaje);
-
+            
             personaje = new Personajes();
             personaje.setNombre("thor");
             personaje.setImgsrc("/utilidadheroes/thor.jpg");
@@ -220,7 +220,7 @@ public class PrincipalController2 implements Initializable {
 
             personaje = new Personajes();
             personaje.setNombre("tigra");
-            personaje.setImgsrc("/utilidadheroes/tigra.jpg");
+            personaje.setImgsrc("/utilidadheroes/tigra.png");
             personajes.add(personaje);
 
             personaje = new Personajes();
@@ -246,21 +246,23 @@ public class PrincipalController2 implements Initializable {
             personaje = new Personajes();
             personaje.setNombre("zatanna");
             personaje.setImgsrc("/utilidadheroes/zatanna.jpg");
+            personajes.add(personaje);
 
+            personaje = new Personajes();
             personaje.setNombre("firestorm");
             personaje.setImgsrc("/utilidadheroes/firestorm.jpg");
             personajes.add(personaje);
 			
 	    personaje = new Personajes();
             personaje.setNombre("felcha verde");
-            personaje.setImgsrc("/utilidadheroes/felcha_verde.jpg");
+            personaje.setImgsrc("/utilidadheroes/flecha_verde.jpg");
             personajes.add(personaje);
 			
 	    personaje = new Personajes();
             personaje.setNombre("ghost rider");
             personaje.setImgsrc("/utilidadheroes/ghost_rider.png");
             personajes.add(personaje);
-			*/
+			
 	    personaje = new Personajes();
             personaje.setNombre("gladiador");
             personaje.setImgsrc("/utilidadheroes/gladiador.jpg");
