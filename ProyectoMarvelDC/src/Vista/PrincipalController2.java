@@ -78,8 +78,155 @@ public class PrincipalController2 implements Initializable {
             personaje.setImgsrc("/utilidadheroes/stargirl.jpg");
             personajes.add(personaje);
 
-            
-
+            personaje = new Personajes();
+            personaje.setNombre("firestorm");
+            personaje.setImgsrc("/utilidadheroes/firestorm.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("felcha verde");
+            personaje.setImgsrc("/utilidadheroes/felcha_verde.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("ghost rider");
+            personaje.setImgsrc("/utilidadheroes/ghost_rider.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("gladiador");
+            personaje.setImgsrc("/utilidadheroes/gladiador.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("guy gardner");
+            personaje.setImgsrc("/utilidadheroes/guy_gardner.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("havok");
+            personaje.setImgsrc("/utilidadheroes/havok.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("hawk girl");
+            personaje.setImgsrc("/utilidadheroes/hawk_girl.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("heimdallr");
+            personaje.setImgsrc("/utilidadheroes/heimdallr.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("hercules");
+            personaje.setImgsrc("/utilidadheroes/hercules.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("hourman");
+            personaje.setImgsrc("/utilidadheroes/hourman.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("hulk");
+            personaje.setImgsrc("/utilidadheroes/hulk.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("huntress");
+            personaje.setImgsrc("/utilidadheroes/huntress.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("ice");
+            personaje.setImgsrc("/utilidadheroes/ice.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("iceman");
+            personaje.setImgsrc("/utilidadheroes/iceman.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("invisible woman");
+            personaje.setImgsrc("/utilidadheroes/invisible_woman.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("ironman");
+            personaje.setImgsrc("/utilidadheroes/ironman.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("jean grey");
+            personaje.setImgsrc("/utilidadheroes/jean_grey.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("jessica jones");
+            personaje.setImgsrc("/utilidadheroes/jessica_jones.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("kate spencer");
+            personaje.setImgsrc("/utilidadheroes/kate_spencer.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("killer frost");
+            personaje.setImgsrc("/utilidadheroes/killer_frost.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("kitty pryde");
+            personaje.setImgsrc("/utilidadheroes/kitty_pryde.png");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("kyle rayner");
+            personaje.setImgsrc("/utilidadheroes/kyle_rayner.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("la mole");
+            personaje.setImgsrc("/utilidadheroes/la_mole.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("linterna verde");
+            personaje.setImgsrc("/utilidadheroes/linterna-verde.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("lobezno");
+            personaje.setImgsrc("/utilidadheroes/lobezno.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("martian manhunter");
+            personaje.setImgsrc("/utilidadheroes/martian_manhunter.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("medianoche.jpg");
+            personaje.setImgsrc("/utilidadheroes/medianoche.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("mercurio");
+            personaje.setImgsrc("/utilidadheroes/mercurio.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("miss martian");
+            personaje.setImgsrc("/utilidadheroes/miss_martian.jpg");
+            personajes.add(personaje);
+			
+			personaje = new Personajes();
+            personaje.setNombre("mr fantastic");
+            personaje.setImgsrc("/utilidadheroes/mr_fantastic.png");
+            personajes.add(personaje);
 
             return personajes;
     }
