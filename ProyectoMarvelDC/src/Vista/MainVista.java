@@ -22,7 +22,7 @@ public class MainVista extends Application{
     public void start(Stage primaryStage) throws Exception {
         // TODO Auto-generated method stub  
         stage = primaryStage;
-        Parent root =  FXMLLoader.load(getClass().getResource("/Vista/frmPrincipal2.fxml"));
+        Parent root =  FXMLLoader.load(getClass().getResource("/Vista/frmLogin2.fxml"));
         primaryStage.initStyle(StageStyle.DECORATED.UNDECORATED);
         //comentario
         System.out.println("hola");
