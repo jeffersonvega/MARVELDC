@@ -49,11 +49,11 @@ public class PrincipalController2 implements Initializable {
         System.exit(0);
     }
 
-    @FXML
+    /*@FXML
     void actEditor(ActionEvent event) throws IOException {
         MainVista mv = new MainVista();
         mv.checkLogin("/Vista/frmEditor.fxml");
-    }
+    }*/
 
     @FXML
     private ScrollPane scrollpane;
