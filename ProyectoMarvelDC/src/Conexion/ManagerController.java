@@ -1,4 +1,4 @@
-package Conexion;
+﻿package Conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,9 +16,11 @@ public class ManagerController
 
         try 
         { 
+
             Class.forName("org.postgresql.Driver");
             conn = DriverManager.getConnection(URL,USUARIO, CLAVE);
             System.out.println("CONEXIÓN REALIZADA SATISFACTORIAMENTE");
+
         } 
         catch (ClassNotFoundException ex) 
         {
