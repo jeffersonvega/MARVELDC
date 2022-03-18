@@ -9,30 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Entidad.Usuario;
-import Vista.MainVista;
+
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 public class UserDAO implements iUserDAO{
 
-
-    @Override
-    public void insertar(Usuario cl) throws SQLException {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    public void actualizar(Usuario cl) throws SQLException {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    public void eliminar(int codigo) throws SQLException {
-        // TODO Auto-generated method stub
-        
-    }
 
     @Override
     public ArrayList<Usuario> consultartodo() throws SQLException {
@@ -72,14 +54,6 @@ public class UserDAO implements iUserDAO{
     }
 
     @Override
-    public int traerId(Usuario id) throws SQLException {
-        return 0;
-
-
-
-    }
-
-    @Override
     public void validarlogin(String name, String pass) throws SQLException {
         // TODO Auto-generated method stub
 
@@ -101,36 +75,8 @@ public class UserDAO implements iUserDAO{
             while (rs.next()){
                 if(rs.getInt(1)==1){
                     System.out.println("Bienvendio");
-                    MainVista mv = new MainVista();
+                    Main.MainVista mv = new Main.MainVista();
                     mv.checkLogin("/Vista/frmPrincipal2.fxml"); 
-                }
-                else{
-                    System.out.println("Login invalido");
-                }
-            }
-            
-        } catch (Exception e) {
-            //TODO: handle exception
-        }
-        
-    }
-
-    @Override
-    public void validarloginfx(TextField txtUser, PasswordField txtPassword) {
-        // TODO Auto-generated method stub
-        ManagerController mn = new ManagerController();
-        Connection db = mn.obtenerConexion();
-
-        
-        String verificarlogin ="select count (1) from usuario where name_user ='"+txtUser+"' and  pass_user ='"+txtPassword+"'";
-
-        try {
-            Statement st = (Statement) db.createStatement();
-            ResultSet rs= ((PreparedStatement) st).executeQuery(verificarlogin);
-
-            while (rs.next()){
-                if(rs.getInt(1)==1){
-                    System.out.println("Bienvendio");
                 }
                 else{
                     System.out.println("Login invalido");
