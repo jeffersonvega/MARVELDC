@@ -63,7 +63,7 @@ public class EditorSaveController implements Initializable {
     @FXML
     void actGuardar(ActionEvent event) throws FileNotFoundException, SQLException, IOException {
         iHeroesDAO pDao = new HeroesDAO();
-        
+        //guardar datos
         Heroes h = new Heroes();
         h.setNombre(txtSHeroName.getText());
         h.setFileurl(fileurl);
@@ -76,6 +76,8 @@ public class EditorSaveController implements Initializable {
     }
     @FXML
     void actAbrir(ActionEvent event) throws FileNotFoundException, SQLException, IOException {
+
+	//se usa  un file chooser para abrir la ubicacion y buscar elheroe correspondiente
         FileChooser file = new FileChooser();  
         file.setTitle("Save Image");  
         File file1 = file.showOpenDialog(null);
@@ -101,6 +103,8 @@ public class EditorSaveController implements Initializable {
     @FXML
     void actRegresar(ActionEvent event) throws IOException {
         MainVista mv = new MainVista();
+
+	
         mv.checkLogin("/Vista/frmPrincipal2.fxml");
     }
 
@@ -108,6 +112,9 @@ public class EditorSaveController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         // TODO Auto-generated method stub
         lblRuta.setVisible(false);
+	if(lblruta=null){
+	lblRuta.setVisible(false
+}
 
         ObservableList<String> items = FXCollections.observableArrayList();
         items.addAll("MARVEL","DC");
