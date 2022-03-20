@@ -17,7 +17,7 @@ public interface iHeroesDAO {
     void eliminar(int codigo)throws SQLException;
     public List <Heroes> consultartodo()throws SQLException;
     public List <Heroes> consultarfiltro(String name)throws SQLException;
-    //public Heroes consultarheroe(Heroes heroe)throws SQLException;
+    
     
 
 }

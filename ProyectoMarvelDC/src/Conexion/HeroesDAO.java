@@ -51,6 +51,11 @@ public class HeroesDAO implements iHeroesDAO{
                 ps.setString(4,heroes.getAlterego());
                 ps.setString(5,heroes.getFecha());
                 ps.setString(6,heroes.getNemesis());
+		Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setHeaderText(null);
+            alert.setTitle("Info");
+            alert.setContentText("Heroe insertado Correctamente");
+            alert.showAndWait();
                
     
                 ps.executeUpdate();
