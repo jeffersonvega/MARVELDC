@@ -43,7 +43,7 @@ public class HeroesDAO implements iHeroesDAO{
 
 
                 
-                ps = conn.prepareStatement("insert into heroesp (id,nombre,foto,alterego,fecha,nemesis) values(?,?,?,?,?)");
+                ps = conn.prepareStatement("insert into newheroesp (id,nombre,foto,alterego,fecha,nemesis) values(?,?,?,?,?)");
     
                 ps.setInt(1, heroes.getId());
                 ps.setString(2, heroes.getNombre());
@@ -74,11 +74,11 @@ public class HeroesDAO implements iHeroesDAO{
         
        
         ps.setString(1,heroes.getNombre());
-       
-        ps.setInt(5, heroes.getId());
-        ps.setString(2, heroes.getAlterego());
+       	ps.setString(2, heroes.getAlterego());
         ps.setString(3, heroes.getFecha());
         ps.setString(4, heroes.getNemesis());
+        ps.setInt(5, heroes.getId());
+        
 
         ps.executeUpdate();
         System.out.println("Se actualizó con exito");
@@ -106,9 +106,10 @@ public class HeroesDAO implements iHeroesDAO{
         try
         {
             con = ManagerController.obtenerConexion();
+		ps.setInt(1, codigo);
             ps = con.prepareStatement("DELETE FROM  newheroesp WHERE id = ?");
 
-            ps.setInt(1, codigo);
+            
 
             ps.executeUpdate();
             System.out.print("se elimino con exito");
